@@ -5,7 +5,8 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        sortingArrays();
+        multidimensionalArrays();
+        // This line causes a compile error
     }
 
     static void initArrays() {
@@ -37,5 +38,26 @@ public class Main {
         System.out.println("Sortare numerica");
         System.out.println(Arrays.toString(array3));
 
+    }
+
+    static void searchingArrays(){
+        int[] array = new int[]{0,2,4,6,8};
+        System.out.println(Arrays.binarySearch(array, 8) + " este pozitia elementului 8 care exista");
+        System.out.println(Arrays.binarySearch(array, 7) + " este pozitia elementului 7 care exista");
+    }
+
+    static void multidimensionalArrays(){
+        int[][] matrix = new int[][]{
+                {1,2,3,4},
+                {5,6,7,8},
+                {9,10,11,12}
+        };
+
+        System.out.println("Deep String");
+        System.out.println(Arrays.deepToString(matrix));
+        System.out.println("Linii");
+        System.out.println(Arrays.toString(matrix[0]));
+        System.out.println(Arrays.toString(matrix[1]));
+        System.out.println(Arrays.toString(matrix[2]));
     }
 }
