@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81bf7712-95e6-436d-8860-2db6d22e09db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../OOPConcepts08/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../04-control-flow/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPConcepts08/src/access_modifiers/package_one/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-OOPConcepts/src/access_modifiers/package_one/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPConcepts08/src/access_modifiers/package_one/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-OOPConcepts/src/access_modifiers/package_one/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPConcepts08/src/access_modifiers/package_two/Bee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-OOPConcepts/src/access_modifiers/package_two/Bee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../05-methods/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/abstractKeyword/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/abstractKeyword/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/abstractKeyword/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/abstractKeyword/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/abstractKeyword/testAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/abstractKeyword/testAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/anonymous/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/anonymous/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/anonymous/Cheetah.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/anonymous/Cheetah.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/anonymous/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/anonymous/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/encapsulation/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/encapsulation/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/encapsulation/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/encapsulation/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/encapsulation/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/encapsulation/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/finalKeyword/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/finalKeyword/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/finalKeyword/FinalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/finalKeyword/FinalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/finalKeyword/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/finalKeyword/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/inheritance/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/inheritance/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/inheritance/Birds.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/inheritance/Birds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/inheritance/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/inheritance/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/inheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/interfaceKeyword/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/interfaceKeyword/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/interfaceKeyword/CanFed.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/interfaceKeyword/CanFed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/interfaceKeyword/CanFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/interfaceKeyword/CanFly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/interfaceKeyword/Exists.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/interfaceKeyword/Exists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/interfaceKeyword/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/interfaceKeyword/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/methodOverwriting/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/methodOverwriting/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/methodOverwriting/OverrideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/methodOverwriting/OverrideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/methodOverwriting/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/methodOverwriting/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/polymorphism/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/polymorphism/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/polymorphism/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/polymorphism/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/polymorphism/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/polymorphism/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/polymorphism/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/polymorphism/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/recordClasses/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/recordClasses/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/recordClasses/OuterPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/recordClasses/OuterPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/recordClasses/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/recordClasses/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/recordClasses/PersonTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/recordClasses/PersonTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/recordClasses/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/recordClasses/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/sealed/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/sealed/Animals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/sealed/Birds.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/sealed/Birds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/sealed/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/sealed/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/this_super/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/this_super/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/this_super/SuperThisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/this_super/SuperThisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/this_super/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/this_super/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/this_super/super_kw/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/this_super/super_kw/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/this_super/super_kw/Ferrari.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/this_super/super_kw/Ferrari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/this_super/super_kw/superTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/this_super/super_kw/superTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/this_super/this_kw/exampleThis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/this_super/this_kw/exampleThis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/varKeyword/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/varKeyword/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOPProgramming09/src/varKeyword/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/src/varKeyword/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arrays03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-arrays/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../control-flow04/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../06-OOPConcepts/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../control-flow04/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-control-flow/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../methods05/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../07-OOPProgramming/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../methods05/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-methods/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../operators02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../02-operators/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ghergutftw"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ghergutftw/1Z0-830.git",
+    "accountId": "55580988-93b8-43af-853d-9359f70d98c0"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="35ZKyV1VEBlvW4mTDPQhdei3Fdi" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/madal/Desktop/Files/Courses/Java21/08-Wrapper_AutoBoxing_Unboxing",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/madal/Desktop/Files/Courses/Java21/08-Wrapper_AutoBoxing_Unboxing/bxoig/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "AtomSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="boxing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81bf7712-95e6-436d-8860-2db6d22e09db" name="Changes" comment="" />
+      <created>1763312407780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763312407780</updated>
+      <workItem from="1763312409154" duration="16000" />
+      <workItem from="1763313304864" duration="902000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
