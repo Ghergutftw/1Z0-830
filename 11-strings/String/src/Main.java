@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        usefulMethods();
+        stringBuffer();
     }
 
     static void concatenation() {
@@ -179,6 +179,32 @@ public class Main {
         // transform
         String result = "java21".transform(s -> s.toUpperCase() + "_ROCKS");
         System.out.println("transform: " + result);
+    }
+
+    static void stringBuffer(){
+//        StringBuffer sb = new StringBuffer("Hello");
+        StringBuilder sb = new StringBuilder("Hello");
+
+        System.out.println("Original StringBuffer: " + sb);
+
+        sb.append(" World");
+        System.out.println("After append: " + sb);
+
+        sb.replace(0, 5, "Hi");
+        System.out.println("After replace: " + sb);
+
+        sb.delete(2, 8);
+        System.out.println("After delete: " + sb);
+
+        sb.insert(sb.length(), " there");
+        System.out.println("After insert: " + sb);
+
+        sb.reverse();
+        System.out.println("After reverse: " + sb);
+
+        System.out.println("Length of StringBuffer: " + sb.length());
+
+
     }
 
 }
