@@ -9,4 +9,7 @@ public interface CanFly extends Exists {
         return 0;
     }
 
+    default void print(){
+        System.out.println("I can fly");
+    }
 }

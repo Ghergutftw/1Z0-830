@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="595239ad-f407-4472-947e-b88079863ee8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/String/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/src/Main.java" afterDir="false" />
+    <list default="true" id="8ee3f7c6-e654-43dc-a0db-ffa825afc340" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../07-OOPProgramming/src/interfaceKeyword/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07-OOPProgramming/src/interfaceKeyword/CanFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07-OOPProgramming/src/interfaceKeyword/CanFly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11-strings/String/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -28,36 +31,32 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="35ZPHShHAxKO2AwXuLwxvfhygl3" />
+  <component name="ProjectId" id="35ffawI75wy4NPEr4u04dPKKbYE" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/madal/Desktop/Files/Courses/Java21/11-strings&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/madal/Desktop/Files/Courses/Java21/11-strings/String/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AtomSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/madal/Desktop/Files/Courses/Java21/10-collections/collection/src/Main.java",
+    "settings.editor.selected.configurable": "AtomSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="String" />
+      <module name="collection" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,19 +77,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="595239ad-f407-4472-947e-b88079863ee8" name="Changes" comment="" />
-      <created>1763314532964</created>
+      <changelist id="8ee3f7c6-e654-43dc-a0db-ffa825afc340" name="Changes" comment="" />
+      <created>1763506117520</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1763314532964</updated>
-      <workItem from="1763314534528" duration="3212000" />
-      <workItem from="1763330604599" duration="4746000" />
-      <workItem from="1763501027757" duration="1775000" />
+      <updated>1763506117520</updated>
+      <workItem from="1763506118551" duration="2629000" />
+      <workItem from="1763659412520" duration="2320000" />
+      <workItem from="1763666404625" duration="43000" />
+      <workItem from="1763670242273" duration="4412000" />
+      <workItem from="1763677377929" duration="4000" />
+      <workItem from="1763761471181" duration="6033000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
