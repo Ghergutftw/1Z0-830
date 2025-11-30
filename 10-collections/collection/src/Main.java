@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        IteratorAndListIterator();
+        map();
     }
 
     static void list(){
@@ -286,4 +286,205 @@ public class Main {
 
         */
     }
+
+    static void setInterface(){
+        Set<String> animalsSet = new HashSet<>();
+        animalsSet.add("Cat");
+        animalsSet.add("Dog");
+        animalsSet.add("Cow");
+        animalsSet.add("Lion");
+        animalsSet.add("Ant");
+        animalsSet.add("Dog");
+
+        System.out.println("animalsSet = " + animalsSet);
+        System.out.println("size of animalsSet = " + animalsSet.size());
+        animalsSet.remove("Cow");
+        System.out.println("REMOVE COW!");
+
+        System.out.println("Do I have a lion ? " + (animalsSet.contains("Lion") ? "yes" : "no"));
+        System.out.println("animalsSet = " + animalsSet);
+        System.out.println("size of animalsSet = " + animalsSet.size());
+
+        System.out.println("===================================");
+
+        Set<Integer> set1 = new HashSet<>();
+        set1.add(1);
+        set1.add(2);
+        set1.add(3);
+        set1.add(4);
+        set1.add(5);
+        set1.add(6);
+
+        System.out.println("set1 = " + set1);
+        Set<Integer> set2 = new HashSet<>();
+        set2.add(1);
+        set2.add(4);
+        set2.add(6);
+        set2.add(8);
+        set2.add(9);
+
+        System.out.println("set2 = " + set2);
+
+        System.out.println("are they equal" + (set1.equals(set2) ? "true" : "false"));
+
+        //Intersection -> retainAll()
+        Set<Integer> intersectionSet = new HashSet<>(set1);
+        //Face 2 operatii, intersectia, iar functia retainAll intoarce faptul daca a fost modificat sau nu
+        intersectionSet.retainAll(set2);
+        System.out.println("intersection = " + intersectionSet);
+        //[1, 4, 6]
+
+        //Union -> addAll()
+        Set<Integer> unionSet = new HashSet<>(set1);
+        unionSet.addAll(set2);
+        System.out.println("union = " + unionSet);
+        //[1, 2, 3, 4, 5, 6, 8, 9]
+
+        //Difference -> removeAll()
+        Set<Integer> differenceSet = new HashSet<>(set1);
+        //Ce e in set1 si nu e in set 2
+        differenceSet.removeAll(set2);
+        System.out.println("Difference = " + differenceSet);
+        //[2, 3, 5]
+    }
+
+    static void hashSet(){
+        HashSet<String> carsHashSet = new HashSet<>();
+        carsHashSet.add("Mercedes");
+        carsHashSet.add("Toyota");
+        carsHashSet.add("BMW");
+        carsHashSet.add("Dacia");
+        carsHashSet.add(null);
+        System.out.println("carsHashSet = " + carsHashSet);
+        //null, Toyota, Dacia, Mercedes, BMW
+    }
+
+    static void linkedHashSet(){
+        LinkedHashSet<String> carsLinkedHashSet = new LinkedHashSet<>();
+        carsLinkedHashSet.add("Mercedes");
+        carsLinkedHashSet.add("Toyota");
+        carsLinkedHashSet.add("BMW");
+        carsLinkedHashSet.add("Dacia");
+        carsLinkedHashSet.add(null);
+        System.out.println("carsLinkedHashSet = " + carsLinkedHashSet);
+        //Mercedes, Toyota, BMW, Dacia, null
+    }
+
+    static void treeSet(){
+        class Person implements Comparable<Person> {
+            private String name;
+            private int age;
+            public Person(String name, int age) {
+                this.name = name;
+                this.age = age;
+            }
+
+            @Override
+            public String toString() {
+                return  name + " " + age;
+            }
+
+            @Override
+            public int compareTo(Person other) {
+                // Compare based on age first
+                if (this.age != other.age) {
+                    return Integer.compare(this.age, other.age);
+                }
+                // If ages are equal, compare by name to ensure uniqueness
+                return this.name.compareTo(other.name);
+            }
+        }
+        TreeSet<Person> personTreeSet = new TreeSet<>();
+        personTreeSet.add(new  Person("Maria", 18));
+        personTreeSet.add(new  Person("Bianca", 21));
+        personTreeSet.add(new  Person("Ana", 19));
+        personTreeSet.add(new  Person("David", 19));
+        personTreeSet.add(new   Person("Sofia", 5));
+        System.out.println("personTreeSet = " + personTreeSet);
+        //[Sofia 5, Maria 18, Ana 19, David 19, Bianca 21]
+        System.out.println("Descending: "  +  personTreeSet.descendingSet());
+        System.out.println("Head Set: " + personTreeSet.headSet(new Person("David", 19), true));
+        // inclusive = true ->  [Sofia 5, Maria 18, Ana 19, David 19]
+        // inclusive = false ->  [Sofia 5, Maria 18, Ana 19]
+        System.out.println("Sub Set(Maria David: " + personTreeSet.subSet(new Person("Maria", 18), true, new Person("David", 19), true));
+        // [Maria 18, Ana 19, David 19]
+        System.out.println("Tail Set: " + personTreeSet.tailSet(new Person("Ana", 19), true));
+        // inclusive = false -> [David 19, Bianca 21]
+        // inclusive = true -> [Ana 19, David 19, Bianca 21]
+        System.out.println("First: " + personTreeSet.first());
+        // Maria 18
+        System.out.println("Last: " + personTreeSet.last());
+        // Bianca 21
+
+        System.out.println("Remove first element: " + personTreeSet.pollFirst());
+        System.out.println("After removing first element: " + personTreeSet);
+        System.out.println("Remove last element: " + personTreeSet.pollLast());
+        System.out.println("After removing last element: " + personTreeSet);
+
+
+    }
+
+    static void queue(){
+        Queue<String> carsQueue = new LinkedList<>();
+        carsQueue.offer("Mercedes");
+        carsQueue.offer("Mazda");
+        carsQueue.offer("BMW");
+        carsQueue.offer("Volvo");
+        System.out.println("carsQueue = " + carsQueue +  " size = " + carsQueue.size());
+        // carsQueue = [Mercedes, Mazda, BMW, Volvo] size = 4
+        System.out.println("First element: " + carsQueue.peek());
+        // First element: Mercedes // afiseaza elementul urmator
+        System.out.println("Removed element: " + carsQueue.poll());
+
+        System.out.println("carsQueue = " + carsQueue +  " size = " + carsQueue.size());
+
+        int size = carsQueue.size();
+        for (int i = 0; i < size; i++) {
+            System.out.println(carsQueue.poll());
+        }
+
+
+    }
+
+    static void deque(){
+
+        Deque<String> carsDeque = new LinkedList<>();
+        carsDeque.add("Mercedes");
+        carsDeque.add("BMW");
+        carsDeque.add("Ferrari");
+        carsDeque.addFirst("Ford");
+        carsDeque.addLast("Opel");
+        carsDeque.push("Honda");
+        carsDeque.offer("Hyundai");
+        carsDeque.offerFirst("Kia");
+        carsDeque.offerLast("Renault");
+
+        System.out.println("carsDeque = " + carsDeque);
+
+        System.out.println("Removed element = " + carsDeque.removeFirst());
+        System.out.println("Last version of carsDeque = " + carsDeque);
+
+        System.out.println("Removed element = " + carsDeque.removeLast());
+        System.out.println("Last version of carsDeque = " + carsDeque);
+
+    }
+
+    static void map(){
+        Map<String, Integer> carsMap = new HashMap<>();
+        carsMap.put("Mercedes", 20000);
+        carsMap.put("BMW", 15000);
+        carsMap.put("Volvo", 18000);
+        carsMap.put("Volvo", 15000);
+        System.out.println("carsMap = " + carsMap);
+        System.out.println("carsMap.get(BMW) = " + carsMap.get("BMW"));
+        for (String key : carsMap.keySet()){
+            System.out.println("Key: " + key + " -> Value: " + carsMap.get(key));
+        }
+
+        for (Map.Entry<String, Integer> entry : carsMap.entrySet()){
+            System.out.println("Key: " + entry.getKey() + " -> Value: " + entry.getValue());
+        }
+    }
+
+
 }
