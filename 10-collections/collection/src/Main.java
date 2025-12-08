@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        map();
+        treeMap();
     }
 
     static void list(){
@@ -477,14 +477,43 @@ public class Main {
         carsMap.put("Volvo", 15000);
         System.out.println("carsMap = " + carsMap);
         System.out.println("carsMap.get(BMW) = " + carsMap.get("BMW"));
-        for (String key : carsMap.keySet()){
-            System.out.println("Key: " + key + " -> Value: " + carsMap.get(key));
-        }
+        carsMap.remove("Mercedes");
+        carsMap.replace("BMW", 17000);
+//        for (String key : carsMap.keySet()){
+//            System.out.println("Key: " + key + " -> Value: " + carsMap.get(key));
+//        }
 
         for (Map.Entry<String, Integer> entry : carsMap.entrySet()){
             System.out.println("Key: " + entry.getKey() + " -> Value: " + entry.getValue());
         }
     }
 
+    static void hashMap(){
+        HashMap<String, Integer> agesMap = new HashMap<>();
+        agesMap.put("Ana", 18);
+        agesMap.put("Maria", 19);
+        agesMap.put("Bianca", 20);
+        System.out.println("agesMap = " + agesMap);
+    }
 
+    static void linkedHashMap(){
+        LinkedHashMap<String, Integer> agesMap = new LinkedHashMap<>();
+        agesMap.put("Ana", 18);
+        agesMap.put("Maria", 19);
+        agesMap.put("Bianca", 20);
+        System.out.println("agesMap = " + agesMap);
+    }
+
+    static void treeMap(){
+        TreeMap<String, Integer> agesMap = new TreeMap<>();
+        agesMap.put("Bianca", 20);
+
+        agesMap.put("Maria", 19);
+        agesMap.put("Ana", 18);
+
+        System.out.println("agesMap = " + agesMap);
+        //{Ana=18, Bianca=20, Maria=19} ordonat dupa primul parametru
+
+        System.out.println("agesMap.firstKey() = " + agesMap.firstKey());
+    }
 }
