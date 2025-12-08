@@ -4,31 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fd99d8f-d4b5-4530-9023-573f55dbf69b" name="Changes" comment="" />
+    <list default="true" id="c8b597af-65fc-4073-99fc-c7fc643b3c90" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Color.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Ghergutftw&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ghergutftw"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Ghergutftw/1Z0-830.git&quot;,
-    &quot;accountId&quot;: &quot;55580988-93b8-43af-853d-9359f70d98c0&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ghergutftw/1Z0-830.git",
+    "accountId": "55580988-93b8-43af-853d-9359f70d98c0"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="36FVKf4NKqqM84pGoUzCfDpwDfd" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="36a9rCwUMErdi7egTWmyq5YzgqT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -37,17 +49,15 @@
     "Application.Main.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Madalin/Desktop/Files/Courses/Java21/11-exceptions/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/Madalin/Desktop/Files/Courses/Java21/12-enums/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -61,29 +71,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6fd99d8f-d4b5-4530-9023-573f55dbf69b" name="Changes" comment="" />
-      <created>1764602245232</created>
+      <changelist id="c8b597af-65fc-4073-99fc-c7fc643b3c90" name="Changes" comment="" />
+      <created>1765234014176</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1764602245232</updated>
-      <workItem from="1764602246489" duration="3966000" />
-      <workItem from="1765220975916" duration="3991000" />
+      <updated>1765234014176</updated>
+      <workItem from="1765234015643" duration="2417000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
