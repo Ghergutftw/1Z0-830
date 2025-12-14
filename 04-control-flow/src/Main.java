@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        forLoop();
+        enchantedSwitch();
     }
 
     static void ifMethod(){
@@ -61,6 +61,55 @@ public class Main {
             }
         }
 
+
+    }
+
+    static void enchantedSwitch(){
+        enum DAYS{MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY,SUNDAY};
+
+        int day = 3;
+        String dayOfTheWeek = switch (day) {
+            case 1 -> "Monday";
+            case 2 -> "Tuesday";
+            case 3 ->
+            {
+                System.out.println("The day is:");
+                yield "Wednesday";
+            }
+            case 4 -> "Thursday";
+            case 5 -> "Friday";
+            case 6 -> "Saturday";
+            case 7 -> "Sunday";
+            default -> throw new IllegalArgumentException("Invalid day!");
+        };
+
+        String isWeekday = switch (day){
+            case 1,2,3,4,5 -> "Weekday";
+            default -> "Weekend";
+        };
+
+        var message = switch (day){
+            case 6,7 : yield "weeknd";
+            default: yield "weekday";
+        };
+
+        System.out.println(dayOfTheWeek);
+        System.out.println(isWeekday);
+
+        //Pattern Matching
+
+        Object object = 123;
+        switch (object){
+            case Integer i -> System.out.println("Is integer : " + i);
+            case String s -> System.out.println("Is String : " + s);
+            default -> System.out.println("Not an integer or string");
+        }
+
+        DAYS dayOfWeek = DAYS.WEDNESDAY;
+        switch (dayOfWeek){
+            case FRIDAY, SUNDAY -> System.out.println("Weekend");
+            default -> System.out.println("Weekday");
+        }
 
     }
 

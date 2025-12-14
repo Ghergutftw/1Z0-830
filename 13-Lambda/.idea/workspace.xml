@@ -4,16 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8b597af-65fc-4073-99fc-c7fc643b3c90" name="Changes" comment="" />
+    <list default="true" id="5609c2e4-6765-4784-995b-8346adc28a84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calculator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calculator/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functionalInterfaces/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method_reference/Method_Reference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predicate/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-control-flow/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-control-flow/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="9" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,9 +47,9 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="36a9rCwUMErdi7egTWmyq5YzgqT" />
+  <component name="ProjectId" id="36epGtf5LSgEMBRaN95ORf8HlXP" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -44,25 +58,60 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.main.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Madalin/Desktop/Files/Courses/Java21/13-Lambda",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Madalin/Desktop/Files/Courses/Java21/12-enums/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/Madalin/Desktop/Files/Courses/Java21/13-Lambda/src/Main.java",
     "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="calculator.Main" />
+      <module name="13-Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="predicate.main" />
+      <module name="13-Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="predicate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,23 +122,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c8b597af-65fc-4073-99fc-c7fc643b3c90" name="Changes" comment="" />
-      <created>1765234014176</created>
+      <changelist id="5609c2e4-6765-4784-995b-8346adc28a84" name="Changes" comment="" />
+      <created>1765376799890</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1765234014176</updated>
-      <workItem from="1765234015643" duration="2417000" />
-      <workItem from="1765374987369" duration="18000" />
-      <workItem from="1765375379367" duration="607000" />
+      <updated>1765376799890</updated>
+      <workItem from="1765376803078" duration="5166000" />
+      <workItem from="1765582056214" duration="4590000" />
+      <workItem from="1765652857760" duration="3008000" />
+      <workItem from="1765729908221" duration="44000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
