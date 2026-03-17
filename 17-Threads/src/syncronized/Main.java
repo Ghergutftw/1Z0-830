@@ -5,12 +5,15 @@ public class Main {
         Counter counter = new Counter();
         Thread firstThread = new Thread(() -> {
             for (int i = 0; i < 1000; i++) {
-                counter.increment();
+                if (i == 250) {
+                    counter.running = false;
+                }
+                counter.incrementSync();
             }
         });
         Thread secondThread = new Thread(() -> {
             for (int i = 0; i < 1000; i++) {
-                counter.increment();
+                counter.incrementSync();
             }
         });
 
@@ -18,7 +21,7 @@ public class Main {
         secondThread.start();
 
         try {
-            //Waits for each thread to finish
+            // Waits for each thread to finish
             firstThread.join();
             secondThread.join();
 
