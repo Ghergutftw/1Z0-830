@@ -1,9 +1,10 @@
 import java.util.Map;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class Conc_API {
     public static void main(String[] args) {
-        concurentCollection();
+        atomicVariables();
     }
 
     static void executorService() {
@@ -110,5 +111,55 @@ public class Conc_API {
             System.out.println(s + " " + s2);
         });
 
+    }
+
+    static void futureCallable(){
+        ExecutorService executorService = Executors.newFixedThreadPool(3);
+
+        Callable<String> callableTask = () -> {
+            String threadName = Thread.currentThread().getName();
+            System.out.println(threadName + " is executin " + threadName);
+            Thread.sleep(2000L);
+            return "Result from:" + threadName;
+        };
+
+
+        Future<String> futureResult = executorService.submit(callableTask);
+        try {
+            String result = futureResult.get();//Blocks the main thread until the result is available
+            System.out.println(result);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        } catch (ExecutionException e) {
+            throw new RuntimeException(e);
+        }
+        executorService.shutdown();
+
+    }
+
+    static void atomicVariables(){
+        AtomicInteger atomicInteger =  new AtomicInteger(0);
+        ExecutorService executorService = Executors.newFixedThreadPool(3);
+        for (int i = 0; i < 5; i++) {
+            executorService.submit(() -> {
+                String threadName = Thread.currentThread().getName();
+                int newValueForCounter = atomicInteger.incrementAndGet();
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                System.out.println(threadName + " incremented the value of the counter to " + newValueForCounter);
+
+            });
+        }
+        executorService.shutdown();
+        try {
+            executorService.awaitTermination(10,TimeUnit.SECONDS);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        System.out.println("Final atomic variable value : " + atomicInteger.get());
     }
 }
